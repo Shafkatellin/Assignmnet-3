@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignmnet 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .font-sora{
+         font-family: "Sora", serif;
+        }
+    </style>
+</head>
+<body class="font-sora">
+    <!-- header -->
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+    <section>
+      <nav class="max-w-[1320px] mx-auto  flex items-center justify-between pt-4 border-b-2 border-green-500 md:border-none">
+        <img class="pb-2" src="c2-assets/logo-header.png" alt="">
+        <div class="ml-52 ">
+          <ul class="md:flex md:gap-8 hidden">
+            <li><a href="">Product</a></li>
+            <li><a href="">Survice</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- btn -->
+        <div class=" md:flex md:items-center md:space-x-4 hidden">
+         <div class=" flex space-x-6 mr-6">
+            <div class="">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div>
+                <button>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button> 
+            </div>
+         </div>
+         <div>
+            <button class="px-7 py-2 rounded-lg text-xl border-green-500 border-2">Login</button>
+         </div>
+        <div>
+          <button class="bg-[#179800] text-white px-7 py-2 rounded-lg text-xl">Register</button>
+        </div>
+        </div>
+
+      </nav>
+      <!-- hero section -->
+      <div class="max-w-[1030px] mx-auto text-center mt-10 md:mt-24">
+        <h1 class="font-semibold text-4xl max-w-[800px] mx-auto">Freshness You Can <br> Count On, Prices You’ll Love!</h1>
+        <p class="max-w-[800px] mx-auto mt-4 text-[#111111]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+        <img class="w-full" src="c2-assets/hero-vegetables.png" alt="">
+      </div>
+    </section>
+    </header>
+
+   <!-- main -->
+    <main>
+     <section class="max-w-[1315px] mx-auto md:py-24 py-10 px-4">
+     <div>
+        <h2 class="font-semibold text-[#179800] text-3xl mb-8 md:mb-14">Services</h2>
+        <!-- card -->
+      <div class="grid md:grid-cols-3 md:gap-7 gap-4">
+          <!-- card 1 -->
+        <div class="text-center p-8 rounded-xl bg-[#EFEBE3] space-y-4">
+          <div class="flex justify-center">
+              <img class=" bg-white rounded-full p-4" src="c2-assets/service.png" alt="">
+          </div>
+          <h3 class="font-semibold text-xl">24/7 Services </h3>
+          <p class="text-[#111111] font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+        <!-- card 2 -->
+        <div class="text-center p-8 rounded-xl bg-[#EFEBE3] space-y-4">
+          <div class="flex justify-center">
+              <img class=" bg-white rounded-full p-4" src="c2-assets/service.png" alt="">
+          </div>
+          <h3 class="font-semibold text-xl">24/7 Services </h3>
+          <p class="text-[#111111] font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+        <!-- card 3 -->
+        <div class="text-center p-8 rounded-xl bg-[#EFEBE3] space-y-4">
+          <div class="flex justify-center">
+              <img class=" bg-white rounded-full p-4" src="c2-assets/service.png" alt="">
+          </div>
+          <h3 class="font-semibold text-xl">24/7 Services </h3>
+          <p class="text-[#111111] font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        </div>
+      </div>
+     </div>
+     </section>
+
+     <!-- procuct section -->
+     <section class="bg-[#EFEBE3] md:py-24 py-10 px-4 ">
+      <div class="max-w-[1310px] mx-auto">
+       <h2 class="font-semibold text-[#179800] text-3xl mb-8 md:mb-14">Popular Products</h2>
+       <!-- card section -->
+       <div class="md:flex gap-6">
+         <!-- 30% 0ff -->
+        <div class="bg-gradient-to-br from-green-500 to-green-100 rounded-xl relative overflow-hidden w-full w-[420px] h-[400px] md:w-[420px] md:h-[400px] mb-4">
+         <div class="pt-14 pl-8 space-y-4">
+            <h2 class="text-white font-semibold text-3xl">30% Off</h2> 
+            <p>Discover A world of treats,toys and <br> essentials handpicked for </p> 
+            <button class="px-7 py-2 rounded-lg text-xl bg-white">Buy Now</button>
+         </div>
+            <img class="absolute left-36 top-36" src="c2-assets/vegetable-offer.png" alt="">
+        </div>
+
+        <!-- collums -->
+        <div class="grid md:grid-cols-3 grid-cols-2 md:grid-rows-3 gap-2 md:gap-4 md:w-[872px] md:h-[400px] ">
+        <!-- 1st collum -->
+         <div class="flex items-center gap-2 md:gap-4 md:p-4 p-2 rounded-lg bg-white">
+            <!-- img -->
+          <div class="bg-[#EFEBE3] rounded-lg">
+            <img class="w-full" src="c2-assets/onion.png" alt="">
+          </div>
+          <!-- text -->
+          <div>
+            <div class="flex items-center gap-2 md:gap-4">
+             <i class="text-[#FFC107] fa-solid fa-star"></i>
+             <h2 class="">4.5</h2>
+            </div>
+            <h2 class="font-medium text-xl">Onion 1 Kg</h2>
+            <h2 class="font-medium">$39.99</h2>
+          </div>
+         </div>
+        <!-- 2st collum -->
+        <div class="flex items-center gap-2 md:gap-4 md:p-4 p-2 rounded-lg bg-white">
+            <!-- img -->
+          <div class="bg-[#EFEBE3] rounded-lg">
+            <img class="w-full" src="c2-assets/onion.png" alt="">
+          </div>
+          <!-- text -->
+          <div>
+            <div class="flex items-center gap-2 md:gap-4">
+             <i class="text-[#FFC107] fa-solid fa-star"></i>
+             <h2 class="">4.5</h2>
+            </div>
+            <h2 class="font-medium text-xl">Onion 1 Kg</h2>
+            <h2 class="font-medium">$39.99</h2>
+          </div>
+         </div>
+        <!-- 3st collum -->
+        <div class="flex items-center gap-2 md:gap-4 md:p-4 p-2 rounded-lg bg-white">
+            <!-- img -->
+          <div class="bg-[#EFEBE3] rounded-lg">
+            <img class="w-full" src="c2-assets/onion.png" alt="">
+          </div>
+          <!-- text -->
+          <div>
+            <div class="flex items-center gap-2 md:gap-4">
+             <i class="text-[#FFC107] fa-solid fa-star"></i>
+             <h2 class="">4.5</h2>
+            </div>
+            <h2 class="font-medium text-xl">Onion 1 Kg</h2>
+            <h2 class="font-medium">$39.99</h2>
+          </div>
+         </div>
+        <!-- 4st collum -->
+        <div class="flex items-center gap-2 md:gap-4 md:p-4 p-2 rounded-lg bg-white">
+            <!-- img -->
+          <div class="bg-[#EFEBE3] rounded-lg">
+            <img class="w-full" src="c2-assets/onion.png" alt="">
+          </div>
+          <!-- text -->
+          <div>
+            <div class="flex items-center gap-2 md:gap-4">
+             <i class="text-[#FFC107] fa-solid fa-star"></i>
+             <h2 class="">4.5</h2>
+            </div>
+            <h2 class="font-medium text-xl">Onion 1 Kg</h2>
+            <h2 class="font-medium">$39.99</h2>
+          </div>
+         </div>
+        <!-- 5st collum -->
+        <div class="flex items-center gap-2 md:gap-4 md:p-4 p-2 rounded-lg bg-white">
+            <!-- img -->
+          <div class="bg-[#EFEBE3] rounded-lg">
+            <img class="w-full" src="c2-assets/onion.png" alt="">
+          </div>
+          <!-- text -->
+          <div>
+            <div class="flex items-center gap-2 md:gap-4">
+             <i class="text-[#FFC107] fa-solid fa-star"></i>
+             <h2 class="">4.5</h2>
+            </div>
+            <h2 class="font-medium text-xl">Onion 1 Kg</h2>
+            <h2 class="font-medium">$39.99</h2>
+          </div>
+         </div>
+        <!-- 6st collum -->
+        <div class="flex items-center gap-2 md:gap-4 md:p-4 p-2 rounded-lg bg-white">
+            <!-- img -->
+          <div class="bg-[#EFEBE3] rounded-lg">
+            <img class="w-full" src="c2-assets/onion.png" alt="">
+          </div>
+          <!-- text -->
+          <div>
+            <div class="flex items-center gap-2 md:gap-4">
+             <i class="text-[#FFC107] fa-solid fa-star"></i>
+             <h2 class="">4.5</h2>
+            </div>
+            <h2 class="font-medium text-xl">Onion 1 Kg</h2>
+            <h2 class="font-medium">$39.99</h2>
+          </div>
+         </div>
+        <!-- 7st collum -->
+        <div class="flex items-center gap-2 md:gap-4 md:p-4 p-2 rounded-lg bg-white">
+            <!-- img -->
+          <div class="bg-[#EFEBE3] rounded-lg">
+            <img class="w-full" src="c2-assets/onion.png" alt="">
+          </div>
+          <!-- text -->
+          <div>
+            <div class="flex items-center gap-2 md:gap-4">
+             <i class="text-[#FFC107] fa-solid fa-star"></i>
+             <h2 class="">4.5</h2>
+            </div>
+            <h2 class="font-medium text-xl">Onion 1 Kg</h2>
+            <h2 class="font-medium">$39.99</h2>
+          </div>
+         </div>
+        <!-- 8st collum -->
+        <div class="flex items-center gap-2 md:gap-4 md:p-4 p-2 rounded-lg bg-white">
+            <!-- img -->
+          <div class="bg-[#EFEBE3] rounded-lg">
+            <img class="w-full" src="c2-assets/onion.png" alt="">
+          </div>
+          <!-- text -->
+          <div>
+            <div class="flex items-center gap-2 md:gap-4">
+             <i class="text-[#FFC107] fa-solid fa-star"></i>
+             <h2 class="">4.5</h2>
+            </div>
+            <h2 class="font-medium text-xl">Onion 1 Kg</h2>
+            <h2 class="font-medium">$39.99</h2>
+          </div>
+         </div>
+        <!-- 9st collum -->
+        <div class="md:flex md:items-center hidden gap-2 md:gap-4 md:p-4 p-2 rounded-lg bg-white">
+            <!-- img -->
+          <div class="bg-[#EFEBE3] rounded-lg">
+            <img class="w-full" src="c2-assets/onion.png" alt="">
+          </div>
+          <!-- text -->
+          <div>
+            <div class="flex items-center gap-2 md:gap-4">
+             <i class="text-[#FFC107] fa-solid fa-star"></i>
+             <h2 class="">4.5</h2>
+            </div>
+            <h2 class="font-medium text-xl">Onion 1 Kg</h2>
+            <h2 class="font-medium">$39.99</h2>
+          </div>
+         </div>
+        
+
+         
+                 
+
+
+        </div>
+
+
+       </div>
+      </div>
+     </section>
+
+     <!-- offer -->
+    <section class="md:py-24 py-10 px-4 ">
+      <div class="max-w-[1315px] mx-auto">
+       <h2 class="font-semibold text-[#179800] text-3xl mb-8 md:mb-14">Arrival & Offer</h2>
+
+
+   <!-- card section -->
+    <div class="md:flex gap-4 ">
+     <!-- 1st card -->
+      <div class="bg-[#115414] gap-20 flex rounded-2xl ">
+        <div class="space-y-4 pl-10 pt-20">
+         <img class="" src="c2-assets/dawat-logo.png" alt="">
+         <button class="bg-[#63B76D] text-2xl px-8 py-3 rounded-lg text-white">Cook Exotic Dishes</button>
+         <h2 class="text-4xl text-white">UP to <span class="font-bold">20% OFF</span></h2>
+        </div>
+        <div class="mt-10">
+            <img class="w-full" src="c2-assets/dawat-mock-up.png" alt="">
+        </div>
+      </div>
+
+      <!-- 2nd card -->
+      <div class="bg-[#102861] flex gap-4 rounded-2xl md:w-4/6">
+        <div class="pl-10 pt-10 space-y-4">
+         <img class="" src="c2-assets/india-gate-logo.png" alt="">
+         <button class="bg-[#2A4D97] text-2xl px-8 py-3 rounded-lg text-white">World’s No.1 Rice</button>
+         <h2 class="text-4xl text-white">UP to <span class="font-bold">40% OFF</span></h2>
+        </div>
+        <div class="pt-16">
+            <img class="w-full" src="c2-assets/india-gate-mock-up.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+      </div>
+    </section>
+
+    </main>
+ 
+    <!-- footer -->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
